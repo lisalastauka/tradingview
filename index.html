@@ -1,0 +1,148 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <nav>
+        <a target="_tab" href="#"> <span class="icon" id="burger"></span></a>
+
+                <a target="_tab" href="#"> <span class="icon" id="second"></span></a>
+
+                <a target="_tab" href="#"><span class="icon" id="third"></span></a>
+
+                <a target="_tab" href="#"><span class="icon" id="fourth"></span></a>
+
+                <a target="_tab" href="#"><span class="icon" id="fifth"></span></a>
+
+                <a target="_tab" href="#"><span class="icon" id="sixth"></span></a>
+
+                <a target="_tab" href="#"> <span class="icon" id="seventh"></span></a>
+
+                <a target="_tab" href="#"> <span class="icon" id="eight"></span></a>
+
+    </nav>
+    <div id="workspace">
+        <div class="widget">
+            <div id="top-panel">
+                <div class="switch">
+                    <div class="checkbox">
+                        <select></select>
+                        <input type="checkbox">
+                        <label><i class="moveblock"></i></label>
+                    </div>
+                </div>
+                <div id="last">
+                    <div class="table">
+                       <div class="row">
+                           <span class="cell">Последняя сделка:</span>
+                           <span class="cell">10:05:58</span>
+                           <span class="cell">0.00054</span>
+                           <span class="cell">10</span>
+                       </div>
+                    </div>
+
+                </div>
+            </div>
+            <script type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "height": 650,
+                    "autosize": true,
+                    "symbol": "NASDAQ:AAPL",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "White",
+                    "style": "2",
+                    "locale": "ru",
+                    "toolbar_bg": "rgba(255, 255, 255, 1)",
+                    "enable_publishing": false,
+                    "withdateranges": true,
+                    "hide_side_toolbar": false,
+                    "allow_symbol_change": true
+                });
+            </script>
+
+        </div>
+        <div class="stats">
+            <div id="stakan">
+                <div class="stats-title">
+                   <a target="_tab" href="#"> <span class="icon" id="settings"></span></a>
+                    <h2>Стакан заявок </h2>
+                </div>
+
+                <div class="data-table" id="asks">
+                    <div class="table"></div>
+                </div>
+
+                <div id="control-panel" >
+
+
+
+
+                </div>
+
+                <div class="data-table" id="bids">
+                    <div class="table"></div>
+                </div>
+
+
+            </div>
+            <div id = "feed">
+                <div class="stats-title">
+                    <!--<a target="_tab" href="#"> <span class="icon" id="settings"></span></a>-->
+                    <h2>Лента сделок </h2>
+
+                </div>
+                <div class="data-table" id="tns">
+                    <div class="table">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="news-block">
+                <div class="news-date">
+                    <h3>Map 20</h3>
+                    <p>04.06</p>
+                </div>
+                    <h2>Как подготовиться к хардфорку Биткоина</h2>
+                <div class="news-content">
+                    <div class="news-image"></div>
+                    <p>Боитесь остаться не у дел после хардфорка Биткоина? В этом материале мы рассмотрим рекомендации ведущих экспертов и варианты развития событий, к которым стоит быть готовым рядовым членам сообщества.</p>
+                    <a target="_blank" href="#">Подробнее...</a>
+                </div>
+
+            </div>
+            <div class="news-block">
+                <div class="news-date">
+                    <h3>Map 20</h3>
+                    <p>04.06</p>
+                </div>
+                    <h2>Google Trends: число пользователей Биткоина удваивается каждые 12 месяцев</h2>
+                <div class="news-content">
+                    <div class="news-image"></div>
+                    <p>Приводя анализ данных Google Trends, Вилли Ву (Willy Woo) – предприниматель, инвестор, трейдер, блогер и фанат криптовалют – утверждает, что Биткоин удваивает число своих  пользователей и инвестиций каждые 371 день.
+                        </p>
+                    <a target="_blank" href="#">Подробнее...</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
